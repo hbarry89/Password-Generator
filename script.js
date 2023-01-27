@@ -76,17 +76,20 @@ function writePassword() { //starter code
   return userPassword;
 
    //create another function to generate the password
-function generatePassword() {
-    var userOptions = getOptions();
+  function generatePassword() {
+    
   }
   //var userOptions = getOptions();
-
+  var userOptions = getOptions();
 
   //we have an array to store each criteria
-    var possibleChars = [];
-    var result = [];
-    var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-
+  var possibleChars = [];
+  var result = [];
+  var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+  var upperCharacters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+  var lowerCharacters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's','t', 'u', 'v', 'w', 'x', 'y', 'z'];
+  var specialCharacters = []
+  
   if (userOptions.hasNumeric === true) {
     possibleChars = possibleChars.concat(numericCharacters);
   }
