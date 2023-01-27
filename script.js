@@ -82,6 +82,8 @@ function writePassword() { //starter code
   //var userOptions = getOptions();
   var userOptions = getOptions();
 
+  function getOptions()
+
   //we have an array to store each criteria
   var possibleChars = [];
   var result = [];
