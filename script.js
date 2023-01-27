@@ -57,12 +57,23 @@ function writePassword() { //starter code
     alert('Password length must be at least 8 characters');
   }
 
+  var hasNumeric = confirm("Click OK to confirm including numeric characters.");
   var hasLower = confirm("Click OK to confirm including Lower characters.");
   var hasUpper = confirm("Click OK to confirm including Upper characters.");
   var hasSpecial = confirm("Click OK to confirm including Special characters.");
 
-}
+  if (hasNumeric === false && hasLower === false && hasUpper === false && hasSpecial === false) {
+    alert('Must select at least one character type');
+  }
 
+   var userPassword = {
+      length: passwordLength,
+      hasNumeric: hasNumeric,
+      hasLower: hasLower,
+      hasUpper: hasUpper,
+      hasSpecial: hasSpecial,
+  }
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword); //starter code
