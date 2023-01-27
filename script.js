@@ -73,6 +73,18 @@ function writePassword() { //starter code
       hasUpper: hasUpper,
       hasSpecial: hasSpecial,
   }
+  return userPassword;
+
+   //create another function to generate the password
+  //var userOptions = getOptions();
+  //we have an array to store each criteria
+  //var possibleChars = [];
+  //var result = [];
+  //var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+  //if(userOptions.hasNumeric === true){
+    //possibleChars = possibleChars.concat(numericCharacters);
+  //}
+  
 }
 
 // Add event listener to generate button
