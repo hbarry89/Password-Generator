@@ -53,7 +53,7 @@ function writePassword() { //starter code
   var passwordLength = prompt("How many characters would you like your password to contain?");
   passwordText.value = password; //starter code
 
-  if (passwordLength < 8) {
+  if (passwordLength < 8 || passwordLength < 129) { //Making sure password length meets critera in instructions: "at least 8 characters and no more than 128 characters"
     alert('Password length must be at least 8 characters');
   }
 
