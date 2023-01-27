@@ -18,6 +18,7 @@
 ### Resources
 - Bootcamp Materials
 - W3 Schools
+- Pseudo Code provided by TA in class
 
 ### Applications Used
 - VS Code
