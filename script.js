@@ -80,13 +80,16 @@ function generatePassword() {
     var userOptions = getOptions();
   }
   //var userOptions = getOptions();
+
+
   //we have an array to store each criteria
-  //var possibleChars = [];
-  //var result = [];
-  //var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-  //if(userOptions.hasNumeric === true){
-    //possibleChars = possibleChars.concat(numericCharacters);
-  //}
+    var possibleChars = [];
+    var result = [];
+    var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+
+  if (userOptions.hasNumeric === true) {
+    possibleChars = possibleChars.concat(numericCharacters);
+  }
 
 }
 
