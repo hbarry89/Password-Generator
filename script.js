@@ -44,16 +44,25 @@
 
 
 // // Assignment Code
-var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate"); //starter code
 
 // // Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-  var passwordLength = prompt("How many characters would you like your password to contain?"); //test
-  passwordText.value = password;
+function writePassword() { //starter code
+  var password = generatePassword(); //starter code
+  var passwordText = document.querySelector("#password"); //starter code
+  var passwordLength = prompt("How many characters would you like your password to contain?");
+  passwordText.value = password; //starter code
+
+  if (passwordLength < 8) {
+    alert('Password length must be at least 8 characters');
+  }
+
+  var hasLower = confirm("Click OK to confirm including Lower characters.");
+  var hasUpper = confirm("Click OK to confirm including Upper characters.");
+  var hasSpecial = confirm("Click OK to confirm including Special characters.");
 
 }
 
+
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword); //starter code
