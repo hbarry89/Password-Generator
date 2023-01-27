@@ -54,7 +54,7 @@ function writePassword() { //starter code
   passwordText.value = password; //starter code
 
   if (passwordLength < 8 || passwordLength > 128) { //Making sure password length meets critera in instructions provided by challenge readme file: "at least 8 characters and no more than 128 characters"
-    alert('Password length must be at least 8 characters');
+    alert('Password length must be at least 8 characters and no more than 128 characters');
   }
 
   var hasNumeric = confirm("Click OK to confirm including numeric characters.");
