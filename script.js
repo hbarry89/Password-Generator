@@ -76,7 +76,8 @@ function writePassword() { //starter code
   return userPassword;
 
    //create another function to generate the password
-   function generatePassword() {
+function generatePassword() {
+    var userOptions = getOptions();
   }
   //var userOptions = getOptions();
   //we have an array to store each criteria
