@@ -50,7 +50,7 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
+  var passwordLength = prompt("How many characters would you like your password to contain?"); //test
   passwordText.value = password;
 
 }

@@ -3,7 +3,7 @@
 ## Description
 
 - This is the third challenge.
-- 
+- The purpose of this repository is to enable a user to generate a random password that meets certain criteria.
 
 ## Usage
 
@@ -18,7 +18,9 @@
 ### Resources
 - Bootcamp Materials
 - W3 Schools
+- Special Character List [Here](https://owasp.org/www-community/password-special-characters)
 - Pseudo Code provided by TA in class
+- JavaScript Tutorial for Beginners [Video](https://www.youtube.com/watch?v=W6NZfCO5SIk)
 
 ### Applications Used
 - VS Code
