@@ -9,7 +9,7 @@
 
 [Click here](https://hbarry89.github.io/Password-Generator/) to navigate to the live link of this repository.
 
-- User will be presented with a series of prompt to genereate a random password:
+- User will be presented with a series of prompts to genereate a random password:
 
 <img src="./demo-images/demo1.png" width="300" height="300">
 <img src="./demo-images/demo2.png" width="300" height="300">
