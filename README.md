@@ -9,17 +9,19 @@
 
 [Click here](https://hbarry89.github.io/Password-Generator/) to navigate to the live link of this repository.
 
-- Screenshots
+- User will be presented with a series of prompt to genereate a random password:
 
-<img src="Demo-Files/laptop-image.png" width="300" height="300">
+<img src="../Demo-Files/demo1.png" width="300" height="300">
+<img src="../Demo-Files/demo2.png" width="300" height="300">
 
 ## Credit
 
 ### Resources
 - Bootcamp Materials
 - W3 Schools
-- Special Character List [Here](https://owasp.org/www-community/password-special-characters)
 - Pseudo Code provided by TA in class
+- Worked with TA, Tutor, and study groups.
+- Special Character List [Here](https://owasp.org/www-community/password-special-characters)
 - JavaScript Tutorial for Beginners [Video](https://www.youtube.com/watch?v=W6NZfCO5SIk)
 
 ### Applications Used
