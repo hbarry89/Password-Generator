@@ -11,8 +11,8 @@
 
 - User will be presented with a series of prompt to genereate a random password:
 
-<img src="../Demo-Files/demo1.png" width="300" height="300">
-<img src="../Demo-Files/demo2.png" width="300" height="300">
+<img src="./demo-images/demo1.png" width="300" height="300">
+<img src="./demo-images/demo2.png" width="300" height="300">
 
 ## Credit
 
